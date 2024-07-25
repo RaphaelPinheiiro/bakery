@@ -1,0 +1,20 @@
+* {
+  box-sizing: border-box;
+  background-color: transparent;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background-color: rgb(40, 42, 44);
+}
+html {
+  color: rgb(255, 255, 248);
+  scrollbar-color: rgb(255, 255, 248) rgb(40, 42, 44);
+  scroll-behavior: smooth;
+}
+a {
+  color: rgb(255, 255, 248);
+}

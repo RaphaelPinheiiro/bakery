@@ -1,0 +1,814 @@
+.header {
+  /* border: 1px solid red; */
+  background-image: linear-gradient(rgba(40, 42, 44, 0), rgba(40, 42, 44, 1)),
+    url("/img/diferentes-tipos-de-pao-em-um-fundo-de-madeira-produtos-de-confeitaria-vista-superior-copie-o-espaco.jpg");
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  overflow: hidden;
+  width: 100%;
+  height: 1080px;
+  gap: 20px;
+}
+.header section {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  gap: 20px;
+}
+.header aside {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  padding: 80px;
+  gap: 8px;
+}
+.header article {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  padding: 80px;
+  gap: 8px;
+}
+.header h2 {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  overflow: hidden;
+  font-size: 48px;
+  text-wrap: nowrap;
+  text-transform: uppercase;
+  width: 100%;
+  height: 100%;
+}
+.header div {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  width: 100%;
+  height: 40%;
+}
+.header p {
+  /* border: 1px solid red; */
+  column-rule: 1px solid rgb(255, 255, 248);
+  column-count: 2;
+  column-gap: 20px;
+  column-fill: balance;
+  overflow: hidden;
+  font-size: 12px;
+  text-align: justify;
+  width: 100%;
+  height: 100%;
+}
+.header figure {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  width: 100%;
+  height: 80px;
+  min-height: 80px;
+  max-height: 80px;
+  padding: 20px;
+}
+.header img {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  width: 30px;
+  max-width: 30px;
+  min-width: 30px;
+  height: 30px;
+}
+.main {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+.AboutBaker {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  overflow: hidden;
+  width: 100%;
+  height: 1080px;
+}
+.AboutBaker header {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+.headerAside {
+  /* border: 1px solid red; */
+  background-image: url("/img/imagem-recortada-de-jovem-padeiro-corta-o-pao.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  padding: 80px;
+}
+.AboutBaker footer {
+  /* border: 1px solid red; */
+  background-color: rgb(178, 137, 77);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  overflow: hidden;
+  width: 100%;
+  height: 40%;
+}
+.footerAside {
+  /* border: 1px solid red; */
+  background-image: linear-gradient(
+      rgba(40, 42, 44, 0.5),
+      rgba(40, 42, 44, 0.5)
+    ),
+    url("/img/imagem-recortada-de-muito-pao-na-mesa copiar.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  padding: 80px;
+}
+.AboutBaker article {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  padding: 80px;
+  gap: 20px;
+}
+.AboutBaker h2 {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  overflow: hidden;
+  font-size: 24px;
+  text-wrap: nowrap;
+  text-transform: uppercase;
+  width: 100%;
+  height: 100%;
+}
+.perfil {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  overflow: hidden;
+  width: 100%;
+  height: 160px;
+  max-height: 160px;
+  min-height: 160px;
+  gap: 20px;
+}
+.perfil figure {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  overflow: hidden;
+  width: 160px;
+  max-width: 160px;
+  min-width: 160px;
+  height: 160px;
+  max-height: 160px;
+  min-height: 160px;
+}
+.perfil img {
+  /* border: 1px solid red; */
+  border-radius: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  overflow: hidden;
+  width: 160px;
+  max-width: 160px;
+  min-width: 160px;
+  height: 160px;
+  max-height: 160px;
+  min-height: 160px;
+}
+.perfil div {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  gap: 8px;
+}
+.perfil h3 {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  overflow: hidden;
+  font-size: 18px;
+  text-wrap: nowrap;
+  width: 100%;
+  height: 100%;
+}
+.perfil p {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  overflow: hidden;
+  font-size: 12px;
+  text-wrap: nowrap;
+  width: 100%;
+  height: 100%;
+}
+.columnsAbout {
+  /* border: 1px solid red; */
+  column-rule: 1px solid rgb(255, 255, 248);
+  column-count: 2;
+  column-gap: 20px;
+  column-fill: balance;
+  overflow: hidden;
+  font-size: 12px;
+  text-align: justify;
+  width: 100%;
+  height: 100%;
+}
+.gallery {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  overflow: hidden;
+  width: 100%;
+  height: 1080px;
+  gap: 20px;
+}
+.gallery header {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  overflow: hidden;
+  width: 100%;
+  height: 40%;
+}
+.gallery footer {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  padding: 80px;
+  gap: 4px;
+}
+.gallery article {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  padding: 80px;
+  gap: 20px;
+}
+.gallery h2 {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  overflow: hidden;
+  font-size: 24px;
+  text-wrap: nowrap;
+  text-transform: uppercase;
+  width: 100%;
+  height: 100%;
+}
+.columnsGallery {
+  /* border: 1px solid red; */
+  column-rule: 1px solid rgb(255, 255, 248);
+  column-count: 2;
+  column-gap: 20px;
+  column-fill: balance;
+  overflow: hidden;
+  font-size: 12px;
+  text-align: justify;
+  width: 100%;
+  height: 100%;
+}
+.gallery section {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  gap: 4px;
+}
+.asideOne {
+  /* border: 1px solid red; */
+  border-radius: 10px;
+  background-image: url("/img/duas-porcoes-de-sorvete-e-alecrim-em-um-fundo-escuro-de-concreto.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+.asideTwo {
+  /* border: 1px solid red; */
+  border-radius: 10px;
+  background-image: url("/img/cesta-de-vime-e-pao-delicioso-na-mesa-de-madeira copiar.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+.asideThree {
+  /* border: 1px solid red; */
+  border-radius: 10px;
+  background-image: url("/img/chocolate-quente-com-chantilly-e-chocolate-ralado-em-uma-xicara-fechar-se.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+.asideFour {
+  /* border: 1px solid red; */
+  border-radius: 10px;
+  background-image: url("/img/imagem-recortada-de-muito-pao-na-mesa.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+.asideFive {
+  /* border: 1px solid red; */
+  border-radius: 10px;
+  background-image: url("/img/vista-frontal-de-bolo-de-chocolate-em-carrinho.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+.asideSix {
+  /* border: 1px solid red; */
+  border-radius: 10px;
+  background-image: url("/img/02.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+.asideSeven {
+  /* border: 1px solid red; */
+  border-radius: 10px;
+  background-image: url("/img/variedade-de-cupcakes-de-chocolate-com-vista-superior.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+.asideEight {
+  /* border: 1px solid red; */
+  border-radius: 10px;
+  background-image: url("/img/vapores-de-cafe-quente-em-mesa-de-madeira-dentro-de-casa-gerados-por-ia copiar.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+.asideNine {
+  /* border: 1px solid red; */
+  border-radius: 20px;
+  background-image: url("/img/variedade-de-pao-de-centeio-e-trigo-e-espigas-de-trigo-em-um-fundo-escuro-vista-lateral-copie-o-espaco copiar.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+.asideTen {
+  /* border: 1px solid red; */
+  border-radius: 20px;
+  background-image: url("/img/vista-frontal-de-bolo-de-chocolate-em-carrinho.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+.coffeebreak {
+  /* border: 1px solid red; */
+  background-image: linear-gradient(
+      rgba(40, 42, 44, 0.8),
+      rgba(40, 42, 44, 0.8)
+    ),
+    url("/img/imagem-colhida-de-jovens-padeiros-na-padaria-bebendo-cafe copiar.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  overflow: hidden;
+  width: 100%;
+  height: 1080px;
+  gap: 20px;
+}
+.coffeebreak header {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  overflow: hidden;
+  width: 100%;
+  height: 40%;
+  padding: 80px;
+  gap: 20px;
+}
+.coffeebreak footer {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  gap: 20px;
+}
+.coffeebreak h2 {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  font-size: 24px;
+  text-wrap: nowrap;
+  text-transform: uppercase;
+  width: 100%;
+  height: 100%;
+}
+.coffeebreak p {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  font-size: 12px;
+  text-wrap: nowrap;
+  width: 100%;
+  height: 100%;
+}
+.coffeebreak section {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  gap: 20px;
+}
+.coffeebreak menu {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  padding: 80px;
+}
+.coffeebreak dl {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  gap: 8px;
+}
+.coffeebreak dt {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  font-size: 14px;
+  text-wrap: nowrap;
+  text-transform: uppercase;
+  width: 100%;
+  height: 100%;
+}
+.coffeebreak dd {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  font-size: 12px;
+  text-wrap: nowrap;
+  width: 100%;
+  height: 100%;
+}
+.coffeebreak div {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  width: 100%;
+  height: 40%;
+}
+.footer {
+  /* border: 1px solid red; */
+  background-color: rgb(255, 255, 248);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  width: 100%;
+  height: 1080px;
+  gap: 20px;
+}
+.footer header {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  overflow: hidden;
+  width: 100%;
+  height: 40%;
+  padding: 80px;
+  z-index: 2;
+}
+.footer h2 {
+  /* border: 1px solid red; */
+  color: rgb(40, 42, 44);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  font-size: 48px;
+  text-wrap: nowrap;
+  text-transform: uppercase;
+  width: 100%;
+  height: 100%;
+}
+.footer section {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  padding: 80px;
+  gap: 20px;
+  z-index: 2;
+}
+.footer form {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  padding: 40px;
+  gap: 20px;
+}
+.footer legend {
+  /* border: 1px solid red; */
+  color: rgb(40, 42, 44);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  overflow: hidden;
+  font-size: 24px;
+  text-wrap: nowrap;
+  text-transform: uppercase;
+  width: 100%;
+  height: 100%;
+}
+.footer label {
+  /* border: 1px solid red; */
+  color: rgb(40, 42, 44);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  overflow: hidden;
+  font-size: 14px;
+  text-wrap: nowrap;
+  width: 100%;
+  height: 100%;
+}
+.footer input[type="text"] {
+  border-bottom: 1px solid rgb(212, 206, 195);
+  color: rgb(40, 42, 44);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  overflow: hidden;
+  font-size: 12px;
+  text-wrap: nowrap;
+  width: 100%;
+  height: 100%;
+}
+.footer input[type="email"] {
+  border-bottom: 1px solid rgb(212, 206, 195);
+  color: rgb(40, 42, 44);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  overflow: hidden;
+  font-size: 12px;
+  text-wrap: nowrap;
+  width: 100%;
+  height: 100%;
+}
+.footer input[type="tel"] {
+  border-bottom: 1px solid rgb(212, 206, 195);
+  color: rgb(40, 42, 44);
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  overflow: hidden;
+  font-size: 12px;
+  text-wrap: nowrap;
+  width: 100%;
+  height: 100%;
+}
+.footer input[type="submit"] {
+  color: rgb(255, 255, 248);
+  background-color: rgb(178, 137, 77);
+  border-radius: 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  overflow: hidden;
+  font-size: 12px;
+  text-wrap: nowrap;
+  width: 150px;
+  height: 30px;
+  max-height: 30px;
+  min-height: 30px;
+  transition: all 700ms;
+}
+.footer input[type="submit"]:hover {
+  color: rgb(255, 255, 248);
+  background-color: rgb(40, 42, 44);
+  transition: all 700ms;
+}
+.footer aside {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  padding: 40px;
+  gap: 20px;
+}
+.footer article {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  gap: 20px;
+}
+.footer p {
+  /* border: 1px solid red; */
+  color: rgb(40, 42, 44);
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  overflow: hidden;
+  font-size: 12px;
+  text-wrap: nowrap;
+  width: 100%;
+  height: 100%;
+}
+.shapeOne {
+  /* border: 1px solid red; */
+  background-color: rgb(212, 206, 195);
+  clip-path: polygon(100% 0%, 100% 50%, 100% 100%, 50% 50%);
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+  height: 1080px;
+  z-index: 1;
+}
+.shapeTwo {
+  /* border: 1px solid red; */
+  background-color: rgb(178, 137, 77);
+  clip-path: polygon(50% 50%, 100% 100%, 50% 100%, 50% 50%);
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+  height: 1080px;
+  z-index: 0;
+}

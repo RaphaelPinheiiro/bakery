@@ -1,0 +1,28 @@
+.social {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  gap: 20px;
+}
+.social figure {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  width: 20px;
+  height: 20px;
+}
+.social img {
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
