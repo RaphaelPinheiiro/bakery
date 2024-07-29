@@ -9,19 +9,19 @@ const Navbar = () => {
       <h1 className={cormorant.className}>Bakery</h1>
       <menu className={lora.className}>
         <li>
-          <Link href="#home">Home</Link>
+          <Link href="/#home">Home</Link>
         </li>
         <li>
-          <Link href="#baker">Baker</Link>
+          <Link href="/#baker">Baker</Link>
         </li>
         <li>
-          <Link href="#gallery">Gallery</Link>
+          <Link href="/#gallery">Gallery</Link>
         </li>
         <li>
-          <Link href="#coffeebreak">Coffeebreak</Link>
+          <Link href="/#coffeebreak">Coffeebreak</Link>
         </li>
         <li>
-          <Link href="#contact">Contact</Link>
+          <Link href="/#contact">Contact</Link>
         </li>
       </menu>
     </nav>

@@ -1,13 +1,15 @@
 import styles from "../styles/index.module.css";
 
-import { cormorant, lora } from "../components/fonts";
-
+import Navbar from "src/components/navbar";
 import Explorer from "../components/explorer";
 import Social from "../components/social";
+
+import { cormorant, lora } from "../components/fonts";
 
 const Home = () => {
   return (
     <>
+      <Navbar />
       <header id="home" className={styles.header}>
         <section>
           <aside></aside>
